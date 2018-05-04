@@ -1,18 +1,13 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+title: About Me
+date: '2017-10-10 20:31:38'
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="/images/2017/10/IMG_20140527_155522-head-1.jpg" alt="me" style="height: 200px;" align="middle">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi there, I'm Doug Schaefer. I am the long serving Eclipse CDT (C/C++ Development Tooling) project lead. I've worked with a few companies over those umpteen years but am now really enjoying myself with the founding company of the CDT, QNX Software Systems, or more accurately now BlackBerry QNX in honor of the great Canadian company that owns us.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My day job is as an architect for QNX's Momentics IDE which builds on top of the CDT. I am also very interested in where we are going with embedded systems, especially as we start to look at robotics and artificial intelligence.
 
-
-[jekyll-organization]: https://github.com/jekyll
+And despite my opinions often matching those of my employer, those expressed here are my own.
