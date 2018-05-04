@@ -1,0 +1,18 @@
+---
+layout: post
+title: Eclipse 3.2 M5,eh?
+date: '2006-03-01 14:44:00'
+---
+
+
+I’m sure you’ve all noticed the newest milestone release for Eclipse 3.2 M5a. I’m not sure everyone knows why the Eclipse PMC had to go through the drastic measure of respinning a milestone release a few days after it was released. It is an important lesson, though, that all Eclipse plug-in developers, and probably any developer working with an evolving platform, need to think about
+
+It all started with Bug [128866](https://bugs.eclipse.org/bugs/show_bug.cgi?id=128866) raised by the EMF guys when they noticed that their Jet nature didn’t work anymore on M5. I also noticed it with one of our internal QNX plug-ins. The problem was that we used a dot in the extension id for our natures. For years, as both of our plug-ins originated with Eclipse 1.0, this never manifested itself in any ill behavior. However, as Jeff McAffer correctly pointed out, it has always been documented that dots weren’t allowed in extension ids. Unfortunately, the Eclipse platform has turned a blind eye to these invalid ids, until M5, of course.
+
+The platform developers came up with a clever design to allow extension ids to have namespaces that were different than the plug-in id, which has been the default. You do this by introducing a plug-in id that, you guessed it, has dots in it to reflect that you are specifying the fully qualified id for the extension. It would have worked, if there hadn’t have been plug-ins like EMF’s and others that broke the rules.
+
+I commend the Eclipse platform team for doing the right thing and respinning M5 to allow both the old and new schemes to work (thanks to plug-in version tags). It had to have been a tough decision, but it really shows that they place a high value on doing the right thing over the optically pleasing thing, especially when it really wasn’t their fault.
+
+But it does point out that backwards compatibility is a hard thing to maintain. It is never a simple matter of taking your old plug-ins and having them always work on new platforms. And it’s not only the APIs but the expected behavior from the platform that can break compatibility. Plug-in developers need to be vigilant and try out their plug-ins on every platform version they want to support. It is also a good idea to try them out early so that if a problem is found it can be dealt with before it becomes too difficult to change. I’m glad that I’ve been doing that.
+
+

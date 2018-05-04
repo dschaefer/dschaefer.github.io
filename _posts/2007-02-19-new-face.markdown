@@ -1,0 +1,12 @@
+---
+layout: post
+title: New Face
+date: '2007-02-19 20:25:00'
+---
+
+
+For those who follow the Planet, I have a face finally. Thanks to [Ian Bull](http://irbull.blogspot.com/index.html) for putting it together for me. For those that don’t follow [Planet Eclipse](http://planeteclipse.org/planet/), boy are you missing out!
+
+Also, I am honoured to be named as a finalist for the [Top Ambassador](http://www.eclipse.org/org/press-release/20070220cb_awardfinalist.php) award in this year’s Eclipse Community Awards. It’s funny since I had a hard time deciding between the other two finalists when I voted, Alex for is great work on [EclipseZone](http://www.eclipsezone.com/) and Chris zx for constantly hooking me up with cool things happening in the greater Eclipse community. Good luck to both of them!
+
+

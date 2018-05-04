@@ -1,0 +1,14 @@
+---
+layout: post
+title: 24 is the new 20
+date: '2008-01-23 15:37:00'
+---
+
+
+Well, I’m sitting here typing away looking at my new 24″ widescreen monitor. Pidgin running on one side talking to my kind boss who ordered it for me, Internet Exploder on the other with me typing right here, and a monster Eclipse looking at IResource implementations sitting behind them. It’s great.
+
+Way back I blogged about my new widescreen laptop and commented on how liberating it was running Eclipse where had no problem seeing the Package/Project Explorer, editors, and Outline View in their full glory. Now at 24″ at 1920×1200, it goes to a new level. The only problem is that I have to turn my head now to go between the Outline View and the left edge of the editor. Oh well. I’m sure if I had anything bigger, it might be too big (did I say that?).
+
+And this size of monitor is getting pretty cheep. This is a good one at only $700. The 20″ 4:3 monitors we used to druel about were more than that not so long ago. So if you’re in the market for a new monitor for working in Eclipse, 24″ is highly recommended.
+
+

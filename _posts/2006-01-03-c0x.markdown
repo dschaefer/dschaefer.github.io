@@ -1,0 +1,14 @@
+---
+layout: post
+title: C++0x
+date: '2006-01-03 14:53:00'
+---
+
+
+Just when you thought the evolution of C++ was over, I spotted the following article discussed on Slashdot. It is from Bjarne Stroustrup, Mr. C++ himself, who I affectionately refer to as Barney (whether it has anything to do with a cuddly purple dinosaur taking care of my favorite programming language, I’ll let my psychiatrist figure out). [You can get the article here](http://www.artima.com/cppsource/cpp0x.html).
+
+In the article, Bjarne discusses proposals to improve generic programming in C++ as well as additional libraries to fill out the offering of STL (things like even more generic containers and our beloved hash maps). The plan is to get this all together for standardization in 2009.
+
+The part I found most interesting, being an open source project lead, is the fact that the C++ standards committee is also volunteer driven and their biggest challenge will be to get something together that is really enticing with the resources they have. Hopefully, the publicity will help.
+
+

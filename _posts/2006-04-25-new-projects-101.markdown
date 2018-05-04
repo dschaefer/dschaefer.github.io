@@ -1,0 +1,18 @@
+---
+layout: post
+title: New Projects 101
+date: '2006-04-25 00:49:00'
+---
+
+
+It’s funny how we are starting to have conversations on [Planet Eclipse](http://planeteclipse.org/planet/). But, I’d like to follow up [Mike’s post](http://planeteclipse.org/planet/), which was following up [John Graham’s post](http://dataplat.blogspot.com/2006/04/fractured-eclipse.html), with my own. The topic is what to focus on when starting new projects, building a good platform for ISVs, or building good tools for end users. This is something I certainly struggled with in the early days of the CDT.
+
+My take is that what you really need to be doing as a new project is building a good community. Now what does that mean? Having happy users and happy ISVs that like your stuff and want to use it or add it to their product portfolio is certainly an important thing. Having people talk good about your project shows momentum and serves as a magnet for those who don’t want to miss out on your “next big thing”.
+
+More importantly however, to the growth of a new project is attracting developers to help you work on it, and by that I mean “add code”. That has certainly been my biggest challenge as the CDT project lead, but it is something that I’ve had some success with in the last few months, and hope to have a bit more in the next few months (if all verbal commitments turn into CVS commits :). I don’t know what the magic formula is, but to my previous point, we have shown momentum with the CDT and a high profile project is certainly appealing to developers (not to mention marketing people ;).
+
+But I think more importantly, since most of the developers working on Eclipse work for commercial vendors, you need to make sure your project can easily meet their business needs. You need to make it easy for their employees to get involved and make it easy for them to be able to leverage off their investment in your project. Having a well managed project helps, as does having a good platform for them to add value, as well as good tools to make sure their end customers are happy as well.
+
+So, I guess that means you need everything :(. But, my point is really that you need to look at more than just what you should be working on, but also how you should be working. You need to put a business friendly face on your project to help attract vendors. As well, I think we all need to educate vendors about the business of open source product management and help alleviate their fears, which I have seen time and time again. That is something I certainly need to work on more.
+
+

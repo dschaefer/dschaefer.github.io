@@ -1,0 +1,18 @@
+---
+layout: post
+title: ESC Day 1
+date: '2007-04-03 23:25:00'
+---
+
+
+That was an interesting day. In case you missed it, I’m down at the Embedded Systems Conference in San Jose, California. Today, Doug Gaff, Ian Skerret and I met a number of press people. There’s one who’s [already published](http://www.eetimes.com/rss/showArticle.jhtml?articleID=198702291&cid=RSSfeed_eetimes_newsRSS) the results of our meeting with him. It’s interesting the diversity of knowledge these guys have about Eclipse. But these are the guys you need to talk to to get the message out and I think we did a good job of getting them all one equal footing.
+
+I spent a few hours at the Eclipse booth. As I mentioned in my last entry, I was pretty disappointed in the size and the location of the booth. But I was pleasantly surprised at the number of people who walked by and said they were starting to use Eclipse. I think by my account, most people who did walk by had something to say, which was pretty cool.
+
+A person from a trade journal from India stopped by and I had a nice talk with her. She mentioned that all of Bangalore was using the CDT. That’s a lot of software developers! I also had a couple of people who were wondering about extending the CDT for the specific needs of their projects. And I had a guy walk by and gave us a woo-hoo. I guess he likes what we’re doing.
+
+Talking with Ian, it is clear we need to find a good way to get publicize everything and start building a community around embedded. Doug Gaff and the people participating in DSDP have done a great job at getting the big players in the market involved. But I’m a grassroots kind of guy and I think there is also opportunity to get the word out to the average Joe.
+
+My idea is to revive a tutorial someone had written about using the CDT to build a tiny app for an ARM7 chip that had no operating system and just ran on the bare metal. I’m doing work in CDT 4 to support gdb debugging with JTAG so it’s perfect timing. And this was affirmed by a couple of conversations I had with guys looking for exactly that. So I’ll work with Ian to get a webinar or something together, so stay tuned…
+
+

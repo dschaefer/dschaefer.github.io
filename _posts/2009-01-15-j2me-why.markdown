@@ -1,0 +1,14 @@
+---
+layout: post
+title: J2ME? Why?
+date: '2009-01-15 15:52:00'
+---
+
+
+I was just reading the slides presented from the [kick-off meeting](http://ianskerrett.wordpress.com/2009/01/15/kick-off-of-the-mobile-industry-working-group/) of the Eclipse Mobile Industry Working Group. I believe this is the first working group at Eclipse and I think it’s a great concept. Bring groups of companies together that are interested in the same or similar technologies and do some planning. Hopefully that will result in new investments in various Eclipse projects.
+
+Anyway, one of the examples of work environments shown was for a J2ME developer. The first thing that jumped into my head, and of course I’m writing this entry without thinking more so I may come off a bit misinformed here but hey I’m just the dumb C++ guy, but who cares about J2ME any more? With the rich mobile development environments provided with Android, the iPhone, the new Palm Pre, and even Qt for mobile devices, why would you do J2ME development any more. Isn’t there much more opportunity for greater riches writing apps for these new and wildly popular environments?
+
+Anyway, feel free to comment and tell me the way it is. And I’m sure the J2ME people over in DSDP are the right people to do that ;), since they know that community. But I am curious about whether the J2ME community is still on the rise, or whether there is a migration happening to these new technologies.
+
+

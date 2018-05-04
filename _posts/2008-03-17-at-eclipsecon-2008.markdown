@@ -1,0 +1,22 @@
+---
+layout: post
+title: At EclipseCon 2008
+date: '2008-03-17 12:42:00'
+---
+
+
+Well, I’m finally settled here at EclipseCon. I’m helping give the CDT Build tutorial latter today and haven’t had much time to look at the matereal yet. So I’ll be doing that the next few hours.
+
+Of course, I made the “mistake” of coming up to the power lounge to find Chris Recoskie and ended up running into quite a few people. That’s the great thing about EclipseCon, it’s meeting the people you talk to on the mailing lists. It’s a lot easier to talk in person and it’s always good to put a face with a name.
+
+The flight down was great and, as it seems to always be, you end up meeting other EclipseConers on the flight. I ran into [Jeff McAffer](http://dev.eclipse.org/blogs/jeff) in Ottawa then we picked up [Eugene Kuleshov](http://www.jroller.com/eu/) and [Andrew Overholt](http://overholt.ca/wp) in Toronto. We were a merry band of Eclipse committers and it made a usually arduous journey a lot more fun.
+
+I’m really looking forward to the week. I come with two hats on now. Of course there’s the CDT where along with the tutorial, I am giving a short talk on CDT 5.0 Ganymede state of the union, as well we have the CDT BOF on Wednesday night where we will get to meet all the CDT gang and learn a bit more about eachother and talk CDT.
+
+My other hat takes me in the direction of the Eclipse p2 project and Eclipse installer technology in general. Jeff gave me a really interesting demo of p2 used in a way I never thought about, i.e. provisioning software on devices. And it doesn’t have to be OSGi based as many assume. It gave me some ideas.
+
+And of course, who could miss the e4 discussions as we as an Eclipse community start to plan out the future of the Eclipse platform.
+
+So if you’re here, and you see, please stop me and say hi. I’m always interested to hear your take on the past, present, and future of the CDT and Eclipse. And I really do learn a lot from hearing your story.
+
+

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Ouch my aiching head
+date: '2007-03-06 11:59:00'
+---
+
+
+I’ve got one of those “You better pace yourself, Doug” mornings. No worries, a couple of cups of coffee and I’ll be good. But it was a good party last night as my colleagues and I from QNX celebrated our win in the [best commercial developer tool category](http://www.eclipse.org/org/press-release/20070306eclipsecommunityawards.php). It is quite an honour to be selected and, especially for the gang who have worked on Momentics since the beginning, long before I arrived on the scene, they should be proud of their achievements as one of the earliest third party to take Eclipse and make it a commercial success outside of Eclipse’s traditional enterprise market.
+
+<div></div><div>Tutorial day went very good. I spent most of the day with these guys:</div><div></div><div>[![](http://3.bp.blogspot.com/_EXDi_Vb_3_w/Re2fCdcuawI/AAAAAAAAAAg/uGHbQmGvdAQ/s320/Hi.JPG)](http://3.bp.blogspot.com/_EXDi_Vb_3_w/Re2fCdcuawI/AAAAAAAAAAg/uGHbQmGvdAQ/s1600-h/Hi.JPG)</div><div>Chris Recoskie is on the right. He’s Mr. CDT now at IBM. The three on the left are the main players in the Parallel Tools project. One of the coolest things about the CDT is how it is being used in some of the big iron supercomputing shops. We talked a lot about how the CDT can be used in an environment where you need to do your builds and debugging remotely in this environment. There’s definitely some architectural challenges to overcome, but including HP who has similar needs, I am starting to thing remote development is reaching critical mass and we’ll need to figure out how to organize the players.</div><div></div><div>I also went to the Remote System Explorer tutorial where I finally got the time to learn the gritty details of RSE straight from the guys who are working on it. I learned a lot in those two hours and actually we could of went even longer. And I think RSE has the potential to help the remote development people. We’ll need to hook everyone up.</div><div></div><div>Well, I have a busy day of talks and the CDT 4.0 demo at 1:30. So I better get at it…</div>

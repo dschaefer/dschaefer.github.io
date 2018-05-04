@@ -1,0 +1,108 @@
+---
+layout: post
+title: Notes
+date: '2016-08-10 11:14:22'
+---
+
+
+This page contains notes about things I’m working on. It’s a scratch pad of ideas and plans, for my open source things. Not sure it’ll make sense to anyone else. It’s just so I don’t forget things :).
+
+
+# New Build System
+
+Much of it is in place. Still a couple of things to work out.
+
+### Launching
+
+Weird but true, the new build system is designed to make launching easier. A lot of how build configurations are selected is driven by ILaunchTargets, which are most commonly set using the Launch Bar.
+
+Currently I end up with a new launch configuration type for each target type and each build configuration type. That’s too many. Need to be able to decouple them and allow launch delegates to get all the information it needs using the core build API.
+
+One of these is tools, like gdb and esptool used for uploading to ESP boards. Need to get the path of these. Probably the best way is to have the paths as attributes on the toolchain. This means the toolchain needs to have these values populated some how. Need to figure that out…
+
+
+# Standard Build on New Build System
+
+I want to undo the mistake of moving CDT’s standard build system on top of the old build system. Here are things still needed.
+
+### Build output parsing for scanner info
+
+We should be able to use much of the same algorithms that existed in the original standard build and which now exist in spots in the new one. We should be able to simplify.
+
+We should allow the user to specify a command for “dry run” builds that show all the commands that will be executed. We could then do that without having to do a build to get all of the indexer settings.
+
+Status: CMake has something similar with the compile commands. In theory, we can take each line of the output, check if it’s a compile command, and if so send it through the same interface.
+
+### Some way to allow users to manually add scanner info
+
+It’s very hard to do this at times. The language settings provider exists for that in the old build system. It’s too tied to the old build configurations. Need to replace it with something similar, but with a much simpler/intuitive UI and with the same extensibility that the current provider allows.
+
+Status: TODO
+
+### Make targets in the Project Explorer
+
+There shouldn’t be a separate view for them. They should appear in a virtual node under the containers representing the directories where the targets should run.
+
+Do we also need to rename them since they don’t necessarily need to be “make” targets. “Build Targets”?
+
+Status: Done.
+
+
+# CDT CMake Support
+
+Plan is to provide CMake support somewhat equivalent to the Qt qmake support we have. The following items are still needed:
+
+### Scanner info from the compile_commands.json file
+
+Looks pretty simple. Can use GSON to bring it in.
+
+Status: Done.
+
+### Preference for cmake location
+
+I wonder if we need to make it build config specific. CMake has a lot of libraries that customize for platforms and libraries that may need to be included.
+
+Status: For now, pulling it from PATH and /usr/local/bin on Mac. Should also allow preference and project property.
+
+### Support for toolchain files
+
+These customize the build for a specific toolchain. We need to be able to map these files to launch target properties so we can automatically pick the right one based on the launch target.
+
+Status: Done
+
+### Editor
+
+Need syntax highlighting, bracket matching, and some level of content assist. We have that for qmake project files and should be able to do something similar for CMakeLists.txt files.
+
+I don’t think auto-editing with source files is a good idea. To hard with multiple build outputs. Content assisting file names would probably be good enough.
+
+Definitely worth taking a look at external solutions and seeing if we can get them contributed to the CDT.
+
+Status: Not started yet.
+
+### Launching
+
+Similar to standard build. We’ll use CMake to experiment.
+
+Start with the CMake project as the launch object. Build always works. Allow all launch targets that have CMake toolchain files and Local. When Launch is clicked, a build will occur. Look up the resulting Binaries and prompt the user which Binary the user wants to launch. Create a new Launch Object for that Binary and add it to the mix. Then grab the right launch config and launch it instead.
+
+Status: Prototype needed
+
+
+# ESP8266
+
+I think the key strategy here is to not put anything specific about ESP8266 into the CDT but to add pieces that can be applied to any microcontroller and any SDK that you would want to use with it.
+
+### Build
+
+For that, I’m going to rely heavily on CMake for the build. It should be easy to create a toolchain file for any SDK. We’ll test that out with ESP8266’s RTOS SDK.
+
+### Launching
+
+Again, keeping things independent of the ESP, need a mechanism to upload a binary using the serial port. Extend the Serial Port connection and add os, arch, and upload command. The command would have a variable (use the platform variables) to represent the binary. Maybe we can use the project name. Be interesting to see how OpenOCD and other JTAG devices could be worked in here.
+
+### Debug
+
+Would like to support gdb stubs in these microcontrollers. Maybe we can use the CDT remote launch, or something very similar that hooks up to the elf file and connects via the serial port once the upload is complete.
+
+

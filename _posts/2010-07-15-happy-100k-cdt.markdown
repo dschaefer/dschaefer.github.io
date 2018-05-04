@@ -1,0 +1,41 @@
+---
+layout: post
+title: Happy 100K CDT!
+date: '2010-07-15 14:54:00'
+---
+
+
+I originally sent this in an e-mail to cdt-dev. But it’s info others might find interesting.
+
+Hey gang,
+
+Just to let you know we passed 100,000 downloads of CDT today and to pass along congrats!
+
+And, looking at the stats, there’s some interesting information there.
+
+First, where do people get the CDT?  
+– 74,300 from the Eclipse C/C++ IDE package  
+– 6,400 from the Eclipse Linux C/C++ IDE package which includes the Linux Tools stuff as well  
+– 13,700 from the Helios train repository  
+– 2,200 from the CDT repository  
+– 2,700 from the CDT master zip  
+– 1,000 from Wascana (w00t!)
+
+So that’s about 80% from the Eclipse packages. There are a couple of things I get from that.  
+– People want a quick and easy way to get the CDT and the Eclipse web site funnels them there.  
+– People who use CDT with Eclipse are CDT users first. Much fewer start with a different Eclipse package and add CDT to it.
+
+And for the platform breakdown.  
+– 59% Windows  
+– 34% Linux  
+– 7% Mac
+
+Again, the Linux number continues to be much higher than we’ve had in the past, which could be attributed to more developers moving to Linux, or people are moving back to Visual Studio on Windows. I’m pretty happy with the 1K so far for Wascana. And I’m hopeful at getting a Windows debug solution with Visual C++ support for Indigo (thanks to work Eugene from Wind River has done in TCF) which may change things.
+
+Also the Mac number is only slightly higher than in the past. Other than fixing a few bugs this release, I think we’re still missing the big carrot, Objective-C. Unfortunately, there isn’t enough investment in this area for that to change any time soon, so it is what it is.
+
+All-in-all, pretty good numbers for the summer. We usually get an explosion in the fall when the kids head back to school which validates my grassroots strategy. We’re getting a hold of the kids early and making them Eclipse savvy so that when they enter the workplace, they’ll carry forward the word there and give our employers money :).
+
+Next report at 200K. We’ll see if things change as we go.
+
+

@@ -1,0 +1,16 @@
+---
+layout: post
+title: Hello C#
+date: '2007-02-23 21:51:00'
+---
+
+
+Not to get anyone excited, especially a particular executive director of a popular foundation, but I’ve managed to enter, build, and run my first C# program using the CDT.
+
+I had previously did a language extension for C# that provides syntax coloring for the C# keywords and associated the CEditor with .cs files. In the last hour (while trying to watch a poorly played curling game on TV – yes, they broadcast curling games on the national sports cable channel in Canada), I took everything I learned from my exercise of getting my other build integrations working this week and thought I’d give a build integration for the Microsoft C# compiler a try. After a little tweaking to handle this special case where there is only one tool that takes all .cs files and produces a .exe, I hit the build button and an exe came out.
+
+Luckily for us, Microsoft has reused their PE executable format for .Net apps, so the CDT immediately recognized the end .exe file as an executable file, so I created a launch config for it and hit the run button. “Hello World” it said in the Console view. Tres cool!
+
+Now there’s a lot of functionality that’s not there. There’s no debugger and there’s no parser to fill the outline view and index. So there’s a long way to go. But it was cool to see.
+
+

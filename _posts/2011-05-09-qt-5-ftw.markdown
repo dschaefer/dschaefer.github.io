@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'Qt 5 #ftw'
+date: '2011-05-09 15:44:00'
+---
+
+
+I just finished reading [Lars Knoll’s blog](http://labs.qt.nokia.com/2011/05/09/thoughts-about-qt-5/) and [his whitepaper](http://labs.qt.nokia.com/content/images/2011/05/Qt5.pdf) on Qt 5, the next major version of Qt. I don’t think their plans can get any better. I am an instant fan.
+
+They are planning on making it a true open source project “from day 1.” This is critical to the future success of Qt 5, especially given all the questions over Nokia’s future direction with Qt. While it helps with the trust factor, it’s also a great move by Nokia who are showing they are concerned for Qt’s future and community.
+
+The most exciting stuff though is technical. They recognize that user interfaces are going through dramatic change. And that hardware accelerated graphics is at the root of that change. People want to manipulate objects in their applications, not stare at static widgets. As I mentioned to a colleague the other day, people want their user interfaces to be real, for the objects to have realistic physical properties, to have weight. With the architectural changes they are planning for Qt 5, it’ll be a lot easier to build such interfaces.
+
+There’s also the recognition that people don’t want to write reams of code to make these interfaces happen. Qt will bring their markup language, QML, front and center to the developer. JavaScript, using Google’s V8 engine, will be the secondary programming language. C++ will still be available but you only need to use it where you need to use it. Again, all this is focused on making applications easier to build.
+
+One of the key advantages of Qt has been multi-platform support. With the focus on using scenegraph’s as the key composition mechanism, the requirements on the host windowing system is reduced greatly. And with their new Lighthouse architecture, porting will be even easier. And what that should lead to is the quick arrival of ports to Android and iOS, bridging the gap between the desktop and mobile device like no one else has. And with Wayland given prominence as one of the primary supported platforms, my hopes for a revamped Linux desktop are given a lifeline.
+
+I’m pretty pumped about this news (obviously). And I’m excited for the future of computing devices with truly usable UIs. But seeing this news, along with watching demos of Apple’s new tablet apps (especially Garageband), Android’s Honeycomb, RIM’s Playbook with the TAT interface, Eclipse’s UI all of a sudden looks very old. I’m not sure if Eclipse 4.x gets us any closer to this level, but I’ll be very curious to see how we can bridge Eclipse onto the new Qt 5. This is where I fear for the future of Eclipse.
+
+

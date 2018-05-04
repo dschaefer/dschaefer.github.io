@@ -1,0 +1,43 @@
+---
+layout: post
+title: A Great Comment about the Eclipse IDE
+date: '2013-08-19 22:05:00'
+---
+
+
+My favorite thing about blogging is the comments that come in telling me I’m full of crap and here’s why :). It’s a great way find out whether I am full of crap and I usually learn from those comments which helps me make decisions. It’s a great resource and highly recommended, assuming you don’t mind being told you’re full of crap.
+
+Anyway, [BrunoM](http://www.blogger.com/profile/03194999657958955527) commented on my post about the Eclipse IDE being dead-ish and I thought I’d repost them here so everyone can see and he’s given permission to do that. He makes some great points. I think I end up agreeing with him. Making the Eclipse IDE cool is just to get people looking again. At the end of the day, it just needs to be a great multi-language IDE. And bringing the IDE community together, break down the project silos, is a great idea on how we could do that. More on my ideas on that later. First, here’s Bruno.
+
+“Hello Doug. It’s an interesting post you have here.
+
+“First, like many others here, I do agree that Eclipse is losing a lot of momentum, even regressing in some aspects (more on than later). But I don’t agree with your vision of what Eclipse should look forward to be. I’ve been following your Twitter and blog posts for quite some time, and I see this recurring pattern: the desire to make Eclipse more exciting, but exciting not necessarily in a functional and technical sense, but more in a visual way: by means of making it more “cool” or “hip”. You often draw comparisons to the all the new “sexy” and cool games, mobile apps, and “Web 2.0” websites and technologies we see out there.
+
+“Again, I respectfully disagree with this vision. Eclipse is a tool a for developers, as its goal should be first and foremost to be as productive, easy and functional to use as it can be. Cool and interesting, but in matter of *substance*, not style. (PS: I’m quite the gamer, but it doesn’t change my opinion. Eclipse is not a game.)
+
+“Now, second, regarding the main subject: Is Eclipse, as an IDE, losing momentum? It sure feels that way! And not just because it is a large and accomplished project that achieved a lot already… if it was just that case it would be okay to lose momentum in a sense, but it seems that the quality of Eclipse has actually been regressing (and a lot of opportunities have been missed). Let me be more concrete about what I mean here.
+
+“I am an user of the Eclipse IDE in two ways. Both as a user of the JDT IDE, to develope Java, but also I am user/consumer of the Eclipse IDE API, as I develop plug-ins for Eclipse. (I worked on Eclipse RCP apps, but more significantly I head the developer of an Eclipse based IDE for the D programming language: DDT)
+
+“As a user of JDT, and the Eclipse IDE in general, let me tell about my experiences. I’ve always loved Eclipse, but when I started trying out the 4.x series, I felt a bit disappointed. The new themes looked horrible, to be honest. Not just in a subjective sense, but there was several visual/rendering bugs as well. This was the 4.1 release if I recall correctly. I decided to stick with 3.x as long it was the main Eclipse release. Then 4.2 came, and Eclipse 4 became the main version. I decided to switch finally. After several months of use I noticed it was way buggier than the 3.x series. A few JDT bugs, but most where Platform bugs (views getting lost, icon/action sets getting lost or misplaced to wrong places, view setting not getting saved/persistend, workbench broken with views/editors getting partial focus – they would receive the normal keystrokes, but command shortcuts would be sent to a different view/editor! This last one drove me nuts, as it happened quite frequently, and after the workbench was broken like this I had to restart Eclipse to fix it).
+
+“The frequency and severity of these bugs, for very common tasks, left me with a bad taste in my mouth. This was compounded by the fact that this was the 4.2 release, ie, there had been two previous releases of the 4.x series already! I know that Eclipse 4 involved a major rewrite of Platform internals, but two releases should have been more than enough to wring out nearly all of these major issues.
+
+“This (combined with news like IBM not investing as much in Eclipse as it used to) gave me the impression that the technical excellence of the core components of Eclipse was not as good as before.  
+Other news do not looked favorably on this either, such as the recent one about ADT moving over to IDEA… Guys that should have been a major wake up call!
+
+“As a user of the Platform and IDE API to develop new plugins, I also think a few opportunities are being missed. I was in love with Eclipse since the early days of 3.x, and by then, it was one of the best options to develop IDEs for other languages. I was involved with this area since 2008, which was when I first started working with Eclipse to develop an IDE for the D language. But this area appears to have stagnated ever since, despite the fact that a lot of improvements and technology could be developed. Whereas a fair amount of innovation has happened for developers of RCP applications, what new developments have occurred that make it easier or more powerful to write new IDEs in Eclipse?
+
+“None really, with the exception of Xtext, and the DLTK (Dynamic Language Toolkit) project. There was also another project similar in scope to DLTK, IMP, but it pretty much seems to have died. Xtext has been quite interesting and looks fairly mature, but I would argue that it is not that adequate for more complex, general purpose programming languages.
+
+“DLTK is actually a great idea for a project, and very useful. And indeed target for programming languages. The way it’s done, at least with most of it’s codebase, is that it copies a lot (really, a lot) of JDT code, and adapts it to be usable to other languages. Code such as JDT’s project model, indexing functionality, compiler/interpreters setup, source editor, and lots UI boilerplate code. So for example, DLTK IDE projects usually have a project layout and view similar to JDT: with source folders, hierarchical packages, source modules, model elements nested within, etc.. The D IDE I work on is actually based on DLTK as well, even though D is not a dynamic language at all. It just happens that a lot of DLTK functionality is useful for non-dynamic languages as well.
+
+“The problem here is that DLTK is quite rough on the edges, both in terms of functional limitations, API limitations, bugs, and brittle documentation. That’s not surprising, it is a massive undertaking, and it doesn’t have that much manpower allocated to it, from what I understand. It has been improving steadily, which is good at least, but at a slow rate.
+
+“Now, the point to take from the comment above, is that there is a huge missed opportunity here. You see, I understand that it’s not reasonable to expect a faster rate of progress with a project like DLTK, since it’s mostly developed by people from one or two smaller companies with their own specific commercial interests, goals, and resource limitations. The thing is, why couldn’t the JDT team work toghether with DLTK? Why couldn’t all (or some) of those components of JDT be adapted for more general IDE use, by the JDT team itself? It’s likely a major undertaking still, but it certainly would have been more effective than having a third party team adapt JDT for general purpose use, in hindsight (and the gains could have come much sooner). There are also a lot of problems with code duplication here. How bad these will be in practice, will depend, I guess, on how often the affect JDT code based changes in the future.
+
+“As a participant in the D community, I’ve also been taking a look at developments of D IDEs in other platforms. There are two quite significant D IDE projects based on Visual Studio and MonoDevelop. People have toyed a bit with Netbeans and IntelliJ IDEA, but nothing signicant has come of it so far. I was quite surprised with the MonoDevelop one though: both the base platform, and the D IDE for it are quite full featured. And this is for a platform (MonoDevelop) that is a quite recent newcomer in the scene.
+
+“Guys, the way I see, Eclipse feels like Subversion. It’s fairly good and useful, and it’s much better than CVS (which could be say, Visual Studio or CodeBlocks or something). But one day, a team with superior technical excellence could well create the equivalent of Git for an IDE platform, and it will just blow away Eclipse completely, in a heartbeat… :/”
+
+
