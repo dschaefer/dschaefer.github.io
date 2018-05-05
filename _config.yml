@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Doug on the Eclipse CDT, QNX, and things
+title: CDT Doug
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal web site discussing things I work on in the open.
+  This is my personal web site discussing things I work on in the open, mainly
+  Eclipse CDT but growing into other C/C++ tools as well. I'll also write occasionally
+  things that will be interesting to QNX developers.
   All opinions are my own and not those of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cdtdoug.ca" # the base hostname & protocol for your site, e.g. http://example.com
