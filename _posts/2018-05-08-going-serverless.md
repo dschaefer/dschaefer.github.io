@@ -1,3 +1,9 @@
+---
+layout: post
+title: Going Serverless
+tags:
+- eclipse
+---
 # Going Serverless
 
 Well, after a couple of years running my cdtdoug.ca server on AWS and the couple of years before that on DigitalOcean, I finally got tired of managing my own server and have moved my blog over to Github Pages. I'm using the default Minima template to get me going, but reading through the Jekyll docs, it looks like I'll have some fun tweaking my own setup the way I want it.
