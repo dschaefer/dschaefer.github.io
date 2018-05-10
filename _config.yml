@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CDT Doug
-email: 
+author: Doug Schaefer
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal web site discussing things I work on in the open, mainly
   Eclipse CDT but growing into other C/C++ tools as well. I'll also write occasionally

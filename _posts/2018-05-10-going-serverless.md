@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Going Serverless
+author: Doug Schaefer
 tags:
 - eclipse
 ---
