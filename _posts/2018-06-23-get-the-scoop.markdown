@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get the Scoop, a Homebrew for WindowsF
+title: Get the Scoop, a Homebrew for Windows
 author: Doug Schaefer
 tags:
 - eclipse
