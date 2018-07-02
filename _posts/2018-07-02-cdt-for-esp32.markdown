@@ -41,19 +41,19 @@ We now need to tell CDT which toolchain to use whe building the project. This wi
 
 In the Preferences, select C/C++ and then CMake to see the list of toolchain files CDT will use with CMake. Click Add. Each CMake toolchain file is associated with a toolchain. Since we put the xtensa toolchain in our PATH, CDT will auto discover it and it will appear in the dropdown. Enter the location of the esp-idf toolchain file which is in the esp-idf repo under tools/cmake/toolchain-esp32.cmake.
 
-<img src="../images/esp32article/CMakeToolchain.png">
+<img src="/images/esp32article/CMakeToolchain.png">
 
 ## The Launch Target
 
-<img src="../images/esp32article/LaunchBar.png" style="height:100px;">
+<img src="/images/esp32article/LaunchBar.png" style="height:100px;">
 
 Next we need to tell CDT to use the toolchain for our project. This is accomplished through the Launch Bar, the new widget set you see on the far left of the toolbar. Click on the third dropdown and select New Launch Target. We need to tell CDT about the target where we'd like to launch our application. We'll be using the flash loader so select Serial Flash Target. Enter a name for the target, "esp32" as the operating system, "xtensa" as the CPU architecture, and select the serial port your ESP32 device is connected to on your machine.
 
-<img src="../images/esp32article/SerialTarget.png">
+<img src="/images/esp32article/SerialTarget.png">
 
 The OS and architecture need to match the settings for the toolchain. You can see those settings by going back to the Preferences and selecting C/C++ and Core Build Toolchains. For GCC toolchains, CDT autodetects those settings by asking GCC for it's target triple.
 
-<img src="../images/esp32article/Toolchains.png">
+<img src="/images/esp32article/Toolchains.png">
 
 ## Build
 
@@ -63,13 +63,13 @@ Notice that the Launch bar's middle selector now has your project there. When yo
 
 Click the Build button in the Launch Bar. You will see the CMake command launched which will discover the toolchain and create the Ninja build file. It will then launch Ninja to build the app and the bootloader.
 
-<img src="../images/esp32article/Build.png" style="height:200px;">
+<img src="/images/esp32article/Build.png" style="height:200px;">
 
 ## Terminal
 
 To see what our program does, we need to see the output from the serial port. I have an Adafruit Huzzah32 which uses USB to both power the board while in development and to talk over the serial port. We'll use the Eclipse Terminal to connect to that serial port. Click the Terminal toolbar button and select Serial Terminal as the terminal type and complete the rest of the settings.
 
-<img src="../images/esp32article/Terminal.png">
+<img src="/images/esp32article/Terminal.png">
 
 ## Launch
 
@@ -77,7 +77,7 @@ To get the app running on the board, we need to download it over the USB serial 
 
 Too hook it up, we need to set up the launch configuration. This is where the Launch Bar shines. Click on the gear next to your project. It will open a launch configuration edit dialog. Since our target type is Serial Launch Target, it has a simple launch that executes an external tool. We'll set it up to run python with the idf.py script and set the build directory and serial port and ask it to flash.
 
-<img src="../images/esp32article/LaunchConfig.png" style="height:400px">
+<img src="/images/esp32article/LaunchConfig.png" style="height:400px">
 
 If you had a program running on your chip you'll notice in the Terminal that it stopped printing there. The CDT has noticed that you're launch target and the terminal are using the same serial port and pauses the terminal while the python script runs. This is especially important on Windows since only one program may control the serial port at a time. Once it starts up again, you see the output of your program. This makes it very easy to iterate changes.
 
