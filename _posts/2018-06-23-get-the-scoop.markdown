@@ -5,8 +5,6 @@ author: Doug Schaefer
 tags:
 - eclipse
 ---
-# Get the Scoop, a Homebrew for Windows
-
 When I came back to QNX over six years ago (wow, it's been that long?), they offered a choice of one of the the three main environments. I was excited to see what all the hype was about and picked Mac. I really enjoyed it. It provided a great blend of user experience with the power of Unix and the shell underneath. The trackpad on the MBP is amazing. It's under rated how much a productivity enhancer that is.
 
 But eventually that machine got old and beat up and it was time for a new one. I had my fun with the Mac, but it's not what's used by many of the users of the tools I build. In the embedded space you see a pretty solid mix of Windows and Linux. And I was interested to see how much better Windows 10 was and whether it could overcome it's really crappy command line environment. So that's where I went.
