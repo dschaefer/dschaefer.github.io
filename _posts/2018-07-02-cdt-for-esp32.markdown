@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using CMake with the Eclipse C/C++ IDE for the ESP32
+title: Using CMake for the ESP32 with the Eclipse C/C++ IDE
 author: Doug Schaefer
 tags:
 - eclipse-prep
@@ -13,15 +13,15 @@ img {
 }
 </style>
 
-The Photon release of the Eclipse C/C++ IDE now includes support for a number of different build systems. CMake is one of the most popular build systems with open source projects so it was a obvious candidate. The Eclipse CDT project has been working on CMake support for a few years and now it's ready for wider adoption.
+The Photon release of the Eclipse C/C++ IDE now includes support for a number of different build systems. CMake is one of the most popular build systems with open source projects so it was an obvious candidate. The Eclipse CDT project has been working on CMake support for a few years and now it's ready for wider adoption.
 
-One of the open source projects supporting CMake is the Espressif IoT Development Framework, ESP-IDF, an SDK for their inexpensive and highly featured system on a chip, the ESP32. It is widely popular with hobbyists with boards available from a number of vendors. Though CMake support is currently in a feature branch, it is expected their CMake build files will make it to the master branch in the upcoming months.
+One of the open source projects using CMake is the Espressif IoT Development Framework, ESP-IDF, an SDK for their inexpensive and highly featured system on a chip, the ESP32. It is widely popular with hobbyists with boards available from a number of vendors. Though CMake support is currently in a feature branch, it is expected their CMake build files will make it to the master branch in the upcoming months.
 
-This environment is a great example of how the new features in the Eclipse C/C++ IDE automate much of the build and launch process when working with microcontroller projects. We will walk though each of the steps to build an application and get it running on a board and will highlight the new features in Eclipse Photon as we go.
+This environment is a great example of how the new features in the Eclipse C/C++ IDE automate much of the build and launch process to speed up development on microcontroller projects. We will walk though each of the steps to build an application and get it running on a board and will highlight the new features in Eclipse Photon as we go.
 
 ## Environment
 
-Espressif provides [thorough documentation on how to set up your development environment](https://docs.espressif.com/projects/esp-idf/en/feature-cmake/get-started/index.html). Here's a quick highlights of what I did for mine. I'm using Windows 10 with CMake, Ninja, and Python 2.7 provided by [scoop](https://scoop.sh/). No MSYS or Cygwin.
+Espressif provides [thorough documentation on how to set up your development environment](https://docs.espressif.com/projects/esp-idf/en/feature-cmake/get-started/index.html). Here's a quick highlights of what I did for mine. I'm using Windows 10 with CMake, Ninja, and Python 2.7 provided by [scoop](https://scoop.sh/). No MSYS or Cygwin. I use busybox for my shell but Eclipse doesn't need it.
 
 - Follow the [Setup Windows Toolchain from Scratch](https://docs.espressif.com/projects/esp-idf/en/feature-cmake/get-started/windows-setup-scratch.html) instructions to get the xtensa toolchain and mconf Kconfig utility. Add them to your PATH environment variable.
 - Checkout the features/cmake branch of the ESP-IDF. Make sure you do a recursive checkout to pick up it's numerous git submodules. Set the IDF_PATH environment variable to the root location of the repo.
@@ -33,7 +33,7 @@ Now we're ready to fire up Eclipse.
 
 In the New C/C++ Project wizard select "Empty or Existing CMake Project" from the list of templates and create a new project. This will create the project but without a CMakeLists.txt or any source files.
 
-<img src="../images/esp32article/NewCMakeProject.png">
+<img src="/images/esp32article/NewCMakeProject.png">
 
 ## The Toolchain 
 
