@@ -5,6 +5,7 @@ author: Doug Schaefer
 date: 2018-07-02 18:00:00
 tags:
 - eclipse
+comments: true
 ---
 <style>
 img {
