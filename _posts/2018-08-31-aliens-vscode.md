@@ -2,7 +2,7 @@
 layout: post
 title: Aliens, Go Home! VS Code-style!
 author: Doug Schaefer
-date: 2018-08-31 14:00:00 -0400
+date: 2018-08-31 14:01:00 -0400
 tags:
 - eclipse
 comments: true
