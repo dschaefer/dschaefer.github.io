@@ -7,7 +7,7 @@ tags:
 - eclipse
 comments: true
 ---
-<img src="https://cdtdoug.ca/images/aliens-vscode.png" height="400px" style="display: block; margin: auto; height: 400px">
+<img src="https://cdtdoug.ca/images/aliens-vscode.png" style="display: block; margin: auto; height: 400px">
 
 Looks ridiculous, doesn't it. There is a method to my madness though. Stick with me...
 
