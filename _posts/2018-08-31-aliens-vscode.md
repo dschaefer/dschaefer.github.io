@@ -2,9 +2,9 @@
 layout: post
 title: Aliens, Go Home! VS Code-style!
 author: Doug Schaefer
-date: 2018-08-31 18:00:00 -0400
+date: 2018-08-31 14:00:00 -0400
 tags:
-- eclipse_pending
+- eclipse
 comments: true
 ---
 <style>
@@ -15,13 +15,13 @@ img {
 }
 </style>
 
-<img src="https://cdtdoug.ca/images/aliens-vscode.png"></img>
+<img src="https://cdtdoug.ca/images/aliens-vscode.png">
 
 Looks ridiculous, doesn't it. There is a method to my madness though. Stick with me...
 
 I make it no secret how enthusiastic I am about Visual Studio Code as an IDE platform. I have often commented on my desire to start building tools using web front end technologies (and not necessarily web back ends). I even prototyped an ["Eclipse Two"](https://cdtdoug.ca/2017/02/16/what-is-two-much-more-than-yet-another-eclipse-ide.html) that was built on Electron directly. In the end, the Microsoft Zurich team, who also happened to be former leaders at Eclipse, created something similar with a huge community and ecosystem of extensions and I jumped on the bandwagon.
 
-Being a good code editor and debugger is one thing, but there's more to life as a developer than writing code. Often the systems we work with are more complicated than can be simply represented in text. We need graphics that can abstract away some of the gory details and make system behavior and relationships easier to understand. And that includes both ends, from modeling when creating the system, to tracing when trying to see what it's doing once we built it.
+Being a good code editor and debugger is one thing, in the end there's more to life as a developer than writing code. Often the systems we work with are more complicated than can be simply represented in text. We need graphics that can abstract away some of the gory details and make system behavior and relationships easier to understand. And that includes both ends, from modeling when creating the system, to tracing when trying to see what it's doing once we built it.
 
 There's a number of ways you can do graphics in a web front end. The first one I considered was SVG. I like it because it's backed by a data model with API that will let you change properties programmatically. And it simply gives an object oriented approach to graphics. It's not all good though since those objects come with a price in memory and setup time. But if you keep the number of elements you create under a thousand or so, it's pretty quick.
 
