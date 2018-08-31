@@ -11,7 +11,7 @@ comments: true
 img {
     margin: auto;
     display: block;
-    height: 300px;
+    height: 400px;
 }
 </style>
 
