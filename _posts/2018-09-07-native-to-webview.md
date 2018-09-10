@@ -1,8 +1,8 @@
 ---
 layout: post
-title: C++ and TypeScript: The Next Generation is Now
+title: C++ and TypeScript - The Next Generation is Now
 author: Doug Schaefer
-date: 2018-09-07 14:01:00 -0400
+date: 2018-09-10 00:00:00 -0400
 tags:
 - eclipse-preview
 ---
