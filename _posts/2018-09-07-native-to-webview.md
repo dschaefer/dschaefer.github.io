@@ -4,7 +4,7 @@ title: C++ and TypeScript - The Next Generation is Now
 author: Doug Schaefer
 date: 2018-09-10 00:00:00 -0400
 tags:
-- eclipse-preview
+- eclipse
 ---
 We're coming up on the 10'th anniversary of one of my favorite EclipseCon memories, Eclipse Summit Europe 2008. Something about staying up until 5 a.m. local time with a bunch of messed up Canadians and Europeans who just didn't want to go to bed that make an event legendary. What made that special was probably the audience with a legend himself, Dave Thomas, who arguably started this all and who stayed right with us.
 
