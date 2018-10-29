@@ -4,7 +4,7 @@ title: EclipseCon 2018 and the New CDT
 author: Doug Schaefer
 date: 2018-10-29 00:00:00 -0400
 tags:
-- eclipse-preview
+- eclipse
 ---
 EclipseCon for me is many things. It's a chance to meet face to face with my fellow CDT contributors. It's an opportunity to run things by one another that may feel awkward over the mailing list or conference calls. It's a chance to get a good feel for what's happening in the rest of the Eclipse IDE and the rest of the Eclipse ecosystem. And it's a chance to hang out with my brothers and sisters in the community and have a few laughs over a few beers going too late into the night but ready to get to work the next morning. It's the best.
 
