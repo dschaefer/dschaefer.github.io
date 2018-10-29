@@ -4,13 +4,16 @@ title: EclipseCon 2018 and the New CDT
 author: Doug Schaefer
 date: 2018-10-29 00:00:00 -0400
 tags:
-- eclipse
+- eclipse-preview
 ---
 EclipseCon for me is many things. It's a chance to meet face to face with my fellow CDT contributors. It's an opportunity to run things by one another that may feel awkward over the mailing list or conference calls. It's a chance to get a good feel for what's happening in the rest of the Eclipse IDE and the rest of the Eclipse ecosystem. And it's a chance to hang out with my brothers and sisters in the community and have a few laughs over a few beers going too late into the night but ready to get to work the next morning. It's the best.
 
 This year was special for another reason. The Eclipse IDE is changing. The world of IDEs is changing. A new generation is upon us. And, no, it's not any particular IDE. Nor is it [my fictional Eclipse Two IDE](https://cdtdoug.ca/2017/02/16/what-is-two-much-more-than-yet-another-eclipse-ide.html) :). And believe it or not, it does involve and give a new lease on life to the old workhorse most of us simply call Eclipse. It's a new architecture for all IDEs and the Eclipse community is taking a leadership role in adopting that architecture. Talks on the topic were everywhere at EclipseCon.
 
-<img src="https://code.visualstudio.com/assets/docs/extensions/example-debuggers/extensibility-architecture.png" style="display: block; margin: auto; height: 200px">
+<figure>
+<img src="https://cdtdoug.ca/images/extensibility-architecture.png" style="display: block; margin: auto; height: 200px">
+<figcaption>(originally https://code.visualstudio.com/assets/docs/extensions/example-debuggers/extensibility-architecture.png)</figcaption>
+</figure>
 
 Of course I'm talking about the Language Server Protocol and the Debug Adapter Protocol. They were introduced by Microsoft for Visual Studio Code but are also open for adoption by any IDE. It allows users to chose the front end that gives them the best user experience while giving access to the language and debug features they expect from all IDEs. It allows IDE builders to work together on these features and it allows platform vendors to not only help with that and but also give their users and customers choice.
 
