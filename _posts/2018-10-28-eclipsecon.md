@@ -2,7 +2,7 @@
 layout: post
 title: EclipseCon 2018 and the New CDT
 author: Doug Schaefer
-date: 2018-10-29 00:00:00 -0400
+date: 2018-10-29 18:00:00 -0400
 tags:
 - eclipse
 ---
