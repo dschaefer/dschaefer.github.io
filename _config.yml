@@ -16,9 +16,10 @@
 title: CDT Doug
 author: Doug Schaefer
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal web site discussing things I work on in the open, mainly
-  Eclipse CDT but growing into other C/C++ tools as well. I'll also write occasionally
-  things that will be interesting to QNX developers.
+  This is my personal web site discussing things I work on in my hobby time.
+  You'll also find a lot of older articles from my time as the Eclipse CDT
+  project lead. I'll leave them here for posterity, but I no longer have
+  any involvement in Eclipse.
   All opinions are my own and not those of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cdtdoug.ca" # the base hostname & protocol for your site, e.g. http://example.com
